@@ -1,0 +1,8 @@
+"warning: GDB: Failed to set controlling terminal: Operation not permitted" 
+
+I solved this Debugging issue of vs code by attaching this path to the launch settings,
+or just executing this commands on terminal.
+
+echo 'export DEBUGINFOD_URLS=""' >> ~/.bashrc
+source ~/.bashrc
+
